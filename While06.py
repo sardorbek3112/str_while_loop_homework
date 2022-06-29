@@ -7,21 +7,3 @@ def main(s):
     Returns:
         int: return answer
     """
-    vowels = "a,e,i,o,u"
-
-    idx = 0
-    k = 0
-    s = s.lower()
-    
-    while idx < len(s):
-        # print(s[idx])
-        if s[idx] not in vowels and s[idx].isalpha():
-            k += 1
-            print(s[idx])
-
-        idx += 1
-
-    return k
-
-s = main("CodeschoolUz")
-print(s)
