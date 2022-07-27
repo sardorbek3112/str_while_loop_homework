@@ -11,7 +11,7 @@ def main(s):
     c = 0
     i = 0
     while i < len(s):
-        if s[i] in l:
+        if s[i].isalpha() and s[i] not in l:
             c += 1
         i += 1
     return c
